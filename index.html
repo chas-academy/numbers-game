@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>Debugging in VSCode</title>
+    <link href="styles.css" rel="stylesheet" type="text/css" />
+  </head>
+  <body>
+    <h1>Gissa det hemliga numret!</h1>
+
+    <p>Vi har valt ett tal mellan 1 och 100. Se om du kan gissa det på 10 försök eller mindre. Medan du gissar så berätta vi om din gissning var för hög eller för låg.</p>
+
+    <div class="form">
+      <label for="guessField">Skriv in din gissning: </label><input type="text" id="guessField" class="guessField">
+      <input type="submit" value="Gissa" class="guessSubmit">
+    </div>
+
+    <div class="resultParas">
+      <p class="guesses"></p>
+      <p class="lastResult"></p>
+      <p class="lowOrHi"></p>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
